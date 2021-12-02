@@ -3,7 +3,6 @@ const { performance } = require("perf_hooks");
 
 function Main() {
     const data = util.readLinesToInt("./input.txt");
-
     let count = 0;
     for (let x = 0; x < data.length; x ++) {
         const now = data[x] + data[x + 1] + data[x + 2]
